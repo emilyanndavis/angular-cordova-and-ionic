@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Angular, Cordova, and Ionic, oh my!</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!--TITLE PAGE-->
+				<section>
+					<h1>Angular, Cordova, and Ionic</h1>
+					<img class="fragment" data-fragment-index="0" src="https://media1.giphy.com/media/V2GiyMSv5dysE/giphy.gif" alt="your head a splode" width="65%" />
+				</section>
+				<section>
+					<h1>Angular, Cordova, and Ionic</h1>
+					<p class="fragment" data-fragment-index="0">What are they?</p>
+					<p class="fragment" data-fragment-index="1">How do they work together?</p>
+					<p class="fragment" data-fragment-index="2">Why should I care?</p>
+				</section>
+				<!--ANGULAR-->
+				<section>
+					<section>
+						<h1>Angular</h1>
+						<img class="no-border" src="https://angular.io/resources/images/logos/angular2/angular.svg" alt="Angular logo" width="50%">
+					</section>
+					<section>
+						<h2>What is Angular?</h2>
+						<img src="http://media0.giphy.com/media/ooBoCTH7e4f6M/giphy.gif" alt="trippy triangles" height="80%" />
+					</section>
+					<section>
+						<h2>Angular is...</h2>
+						<ul>
+							<li class="fragment" data-fragment-index="0">a front-end JavaScript framework</li>
+							<li>
+									<p class="fragment" data-fragment-index="1">designed for cross-platform development</p>
+									<p>
+										<span class="fragment" data-fragment-index="2">(web, </span>
+										<span class="fragment" data-fragment-index="3">mobile web, </span>
+										<span class="fragment" data-fragment-index="4">native mobile, </span>
+										<span class="fragment" data-fragment-index="5">native desktop)</span>
+									</p>
+							</li>
+							<li>
+								<p class="fragment" data-fragment-index="6">optimized for component-based MVC architecture</p>
+								<p class="fragment" data-fragment-index="7">MODEL: 
+									<span class="fragment highlight-green" data-fragment-index="8">forest.service.ts</span>
+								</p>
+								<p class="fragment" data-fragment-index="9">VIEW: 
+									<span class="fragment highlight-green" data-fragment-index="10">maple.component.html, </span><span class="fragment highlight-green" data-fragment-index="11">maple.component.css</span>
+								</p>
+								<p class="fragment" data-fragment-index="12">CONTROLLER: 
+									<span class="fragment highlight-green" data-fragment-index="13">maple.component.ts</span>
+								</p>
+							</li>
+						</ul>
+					</section>
+				</section>
+
+				<!--CORDOVA-->
+				<section>
+					<section>
+						<h1>Cordova</h1>
+						<img class="no-border" src="https://cordova.apache.org/static/img/cordova_bot.png" alt="Cordova logo" width="50%" />
+					</section>
+					<section>
+						<h2>Cordova is...</h2>
+						<ul>
+							<li class="fragment" data-fragment-index="0">a mobile app development framework</li>
+							<li>
+									<p class="fragment" data-fragment-index="1">designed for cross-platform development</p>
+									<p>
+										<span class="fragment" data-fragment-index="2">(Android, </span>
+										<span class="fragment" data-fragment-index="3">iOS, </span>
+										<span class="fragment" data-fragment-index="4">Windows Phone) </span>
+									</p>
+									<img class="fragment" data-fragment-index="5" src="https://media2.giphy.com/media/O56JjOpDoljTG/200_s.gif" alt="prehistoric mobile phone" />
+							</li>
+							<li>
+								<p class="fragment" data-fragment-index="6">based on platform-specific 'wrappers'</p>
+							</li>
+						</ul>					
+					</section>
+					<section>
+						<h2>Things you can do with Cordova:</h2>
+						<ul>
+							<li class="fragment" data-fragment-index="0">build hybrid mobile apps with HTML5, CSS, and JavaScript</li>
+							<li class="fragment" data-fragment-index="1">deploy to multiple platforms (e.g., Android & iOS) with the same codebase</li>
+							<li class="fragment" data-fragment-index="2">access native device APIs like geolocation sensors, cameras, altimeters, and more</li>
+						</ul>
+					</section>
+					<section>
+						<img src="http://media.giphy.com/media/PAcaDLSEgHMHK/giphy-tumblr.gif" alt="lightswitch rave" width="80%"/>
+					</section>
+				</section>
+
+				<!--IONIC-->
+				<section>
+					<section>
+						<img class="no-border" src="http://ionicframework.com/img/ionic-logo-white.svg" alt="Ionic logo" width="80%" />
+					</section>
+					<section>
+						<h2>Ionic is...</h2>
+						<ul>
+							<li>
+								<p class="fragment" data-fragment-index="0">a UI framework for hybrid mobile apps</p>
+								<p class="fragment" data-fragment-index="1">"kind of like 'Bootstrap for Native'"</p>
+							</li>
+							<li class="fragment" data-fragment-index="2">an HTML5 framework that requires a native wrapper (such as Cordova)</li>
+							<li class="fragment" data-fragment-index="3">built on top of Cordova and Angular</li>
+						</ul>
+					</section>
+				</section>
+
+				<!--REVIEW/QUIZ-->
+				<section>
+					<section>
+						<h1>Quiz time!</h1>
+						<img src="http://media2.giphy.com/media/y1JYvLe9fFfpK/giphy.gif" alt="Dexter French test" width="50%" />
+					</section>
+					<section>
+						<h2>Question 1</h2>
+						<p class="fragment" data-fragment-index="0">True or false: </p>
+						<p class="fragment" data-fragment-index="1">Angular is used exclusively for mobile app development</p>
+						<p class="fragment" data-fragment-index="2">FALSE</p>
+						<p class="fragment" data-fragment-index="3">Angular can be used for web and desktop applications as well as for mobile web and native (or hybrid) mobile apps.</p>	
+					</section>
+					<section>
+						<h2>Question 2</h2>
+						<p class="fragment" data-fragment-index="0">What is Ionic?</p>
+						<p class="fragment" data-fragment-index="1">a) A JavaScript framework</p>
+						<p class="fragment" data-fragment-index="2">b) A UI framework</p>
+						<p class="fragment" data-fragment-index="3">c) Something to do with chemistry?</p>
+						<h4 class="fragment" style="color: magenta" data-fragment-index="4">B</h4>
+					</section>
+					<section>
+						<h2>Question 3</h2>
+						<p class="fragment" data-fragment-index="0">True or false: </p>
+						<p class="fragment" data-fragment-index="1">Ionic requires both Angular and Cordova in order to be fully functional</p>
+						<p class="fragment" data-fragment-index="2">TRUE</p>
+						<p class="fragment" data-fragment-index="3">Many of Ionic's UI components are built with Angular, and Ionic apps rely on Cordova in order to run as native apps.</p>	
+					</section>
+					<section>
+						<h2>Question 4</h2>
+						<p class="fragment" data-fragment-index="0">Which of the following can you do with the help of Cordova?</p>
+						<p class="fragment" data-fragment-index="1">a) Build an iOS app without writing a single line of Swift or Objective-C</p>
+						<p class="fragment" data-fragment-index="2">b) Access mobile device sensors in order to display a user's current altitude</p>
+						<p class="fragment" data-fragment-index="3">c) Deploy an app to Android with the same code you used for an iOS app</p>
+						<h4 class="fragment" style="color: magenta" data-fragment-index="4">All of the above!</h4>
+					</section>
+				</section>
+
+				<!--FINALE-->
+				<section>
+					<h1>So what?</h1>
+					<p class="fragment" data-fragment-index="0">
+						<span style="color: #ff2c2d">Angular</span> helps you write tightly knit, client-side MVC components, which you can polish up with the mobile-optimized design elements of <span style="color: #17ff2e">Ionic</span>. 
+						Wrap it all up with <span style="color: #1b91ff">Cordova</span>, and your app will feel at home on just about any mobile device.
+					</p>
+					<p class="fragment" data-fragment-index="1">   
+						In other words, these three tools make it easier than ever to build nearly-native mobile apps with the web development languages you're used to 
+						(i.e., HTML, CSS, and JavaScript).
+					</p>
+					<!--<img class="fragment" data-fragment-index="1" src="http://media3.giphy.com/media/j5TbXk2IhQnSw/giphy.gif" alt="alakazam" height="50%" />-->
+				</section>
+				<section>
+					<img class="fragment" data-fragment-index="0" src="https://media0.giphy.com/media/UxJjs7Kah20OA/giphy.gif" alt="carlton" width="60%" />
+					<h1 class="fragment" data-fragment-index="1">Fin</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
